@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <title>HAPPY BIRTHDAY</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar px-4 nav col-lg-12 col-md-12">
+            <h1 class="col-lg-12 col-md-12 navh1">С ТВОИМ ДНЕМ БРАТИШКА</h1>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/dou.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">Немного из нашей жизни за партами</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/dou-class.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">Возможно это на русском</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/class.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">И конечно о том как ты заводил весь класс</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/kuiz.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">Тот момент когда страшно было всем!</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/duo-foto.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">Наше дуо.</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/vp.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">С ней!</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/vpdj.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">С не менее крутым парнем</div>
+        </section>
+        <section class="col-lg-12 col-md-12 p-5 s">
+            <img src="img/only.jpg" alt="Здесь наше фото" class="col-lg-4 col-md-4 my-img">
+            <div class="o-d col-lg-4 col-md-4">Но в соло ты еще более прекрасен!</div>
+        </section>
+    </main>
+
+    <dialog id="modal">
+        <div class="m-box container-fluid">
+            <p class=""> Ну а это слишком личное, поэтому из моих рук! (чисто чтобы не стать веб-мемами)</p>
+            <a class="btn btn-success b-cl" onclick="modal.close()">СМОТРЕТЬ</a>
+        </div>
+    </dialog>
+
+    <footer class="container-fluid cf p-5">
+        <button type="button" class="btn btn-success position-relative f-b" onclick="modal.showModal()">
+            Ну и наша легендарочка  
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                +++
+            </span>
+        </button>
+    </footer>
+</body>
+</html>
