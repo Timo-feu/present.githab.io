@@ -23,7 +23,7 @@ class Class_Bank
             investLstItem.style.display = 'flex';
             investLstItem.querySelector('.inv-procent').innerText=arr[2];
             investLstItem.querySelector('.inv-sum').innerText=arr[1];
-            investLstItem.querySelector('.inv-cost').innerText=arr[4];
+            investLstItem.querySelector('.inv-cost').innerText=arr[3];
             investList.append(investLstItem);
         }
     }
@@ -36,8 +36,7 @@ class Class_Bank
 
     CountCostInProcent(arr)
     {
-        arr.push(Number(arr[1]) + (Number(arr[1]) * (Number(arr[2])/100/arr[3])));
-        console.log(arr);
+        arr.push(Number(arr[1]) + (Number(arr[1]) * (Number(arr[2])/100)));
         return arr;
     }
 
@@ -54,7 +53,7 @@ class Class_Bank
                 alert('Вы взяли кредит!');
             }else if(arg==this.tarfPlans[1]){
                 if (procent==20) {
-                    if (!valueTime) {alert('Ошибка! Время не указано.');}else{value.push(valueTime);}
+                    if (!valueTime) {alert('Ошибка! Время не указано.'); return this;}else{value.push(valueTime);}
                 }else{value.push(10);}
                 if (cost <= Engine.player.Money && this.invests.length < 3) {
                     Engine.player.Money-=Number(cost);
@@ -71,8 +70,8 @@ class Class_Bank
                 if (!this.tarfPlans.includes(arg)){alert('Ошибка! Такого кредита или вклада не существует!');}
                 if (this.credits.length >= 3){alert('Ошибка! У вас максимальное количесиво кредитов');}
             }
-        }
             bank.Refresh(value);
+        }
         return this;
     }
 
