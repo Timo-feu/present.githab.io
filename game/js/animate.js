@@ -44,14 +44,14 @@ const investInputCost = document.getElementById('input-invcost');
 invItem1.onclick = function(){
     invItem1.style.border = '7px groove #1c6bff';
     invItem2.style.border = 'none';
-    avalue = 12;
+    avalue = 20;
     windowBank.classList.add('phractive');
 }
 
 invItem2.onclick = function(){
     invItem2.style.border = '7px groove #1c6bff';
     invItem1.style.border = 'none';
-    avalue = 20;
+    avalue = 12;
     windowBank.classList.remove('phractive');
 }
 
