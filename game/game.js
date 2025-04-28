@@ -188,7 +188,7 @@ class Class_Handmade
         Engine.player.Apdate();
         this.prodLstItem.remove();
         this.ReadyLst.slice(this.ReadyLst.indexOf(elName), 1);
-        ocument.querySelector('li.prod-item').style.display='none'
+        document.querySelector('li.prod-item').style.display='none'
     }
 }
 
