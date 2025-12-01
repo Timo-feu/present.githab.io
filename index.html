@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <dialog class="popupmodal" aria-labelledby="label" id="modal">
+        <img src="./foto/окошко.png" alt="window" class="modal-window">
+        <div class="modal-up">
+            <div id="head"></div>
+            <button onclick="window.modal.close()" type="button" class="modal-exit">
+                <img src="./foto/transparent-Photoroom.png" alt="exit" class="ex-foto">
+            </button>
+        </div>
+        <div class="modal-main">
+            <p id="modal-text">...</p>
+        </div>
+    </dialog>
+
+    <div class="abs">
+        <button class="btn-1" onclick="window.SearchForPopup(1)" type="button"></button>
+    </div>
+    <div class="Snowflakes" id="tr">
+        <div class="snow"></div>
+    </div>
+    <script src="script.js" lang="JS"></script>
+</body>
+</html>
