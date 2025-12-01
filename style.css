@@ -92,10 +92,10 @@ body {
 
 @media screen and (max-width: 600px) {
     .popupmodal {
-        width: 300px;
+        width: 450px;
     }
     .modal-window {
-        width: 200px;
+        width: 500px;
         left: -1.5em;
     }
     .modal-up {
@@ -108,8 +108,17 @@ body {
         position: relative;
         top: -20px;
     }
-
 }
 
-
-
+@media screen and (max-width:400px) {
+    .popupmodal {
+        width: 350px;
+    }
+    .modal-window {
+        width: 400px;
+    }
+    .modal-main {
+        width: 310px;
+        font-size: 10px;
+    }
+}
