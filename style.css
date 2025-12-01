@@ -90,7 +90,7 @@ body {
     font-style: oblique;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .popupmodal {
         width: 450px;
     }
@@ -110,3 +110,4 @@ body {
     }
 
 }
+ */
