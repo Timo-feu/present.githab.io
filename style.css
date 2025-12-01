@@ -112,7 +112,7 @@ body {
 
 @media screen and (max-width:400px) {
     .popupmodal {
-        width: 350px;
+        width: 400px;
     }
     .modal-window {
         width: 400px;
@@ -122,3 +122,4 @@ body {
         font-size: 10px;
     }
 }
+
