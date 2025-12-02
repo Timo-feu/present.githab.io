@@ -118,11 +118,14 @@ body {
         left: -1em;
     }
     .modal-main {
-        padding-left: 135px;
+        position: relative;
+        left: 13.5em;
+        top: -2em;
         font-size: 10px;
-        width: 360px;
+        width: 22em;
     }
     #head {
         width: 170px;
     }
 }
+
