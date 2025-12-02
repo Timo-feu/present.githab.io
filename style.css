@@ -111,20 +111,18 @@ body {
 }
 @media screen and (max-width:400px) {
     .popupmodal {
-        width: 450px;
+        width: 400px;
     }
     .modal-window {
-        width: 500px;
-        left: -1.5em;
-    }
-    .modal-up {
-        padding-top: 7.8em;
+        width: 430px;
+        left: -1em;
     }
     .modal-main {
-        padding-left: 140px;
-        font-size: 12px;
-        width: 410px;
-        position: relative;
-        top: -20px;
+        padding-left: 135px;
+        font-size: 10px;
+        width: 360px;
+    }
+    #head {
+        width: 170px;
     }
 }
