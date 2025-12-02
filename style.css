@@ -109,23 +109,30 @@ body {
         top: -20px;
     }
 }
+
 @media screen and (max-width:400px) {
     .popupmodal {
         width: 400px;
     }
     .modal-window {
-        width: 430px;
         left: -1em;
+        width: 390px; 
     }
     .modal-main {
         position: relative;
-        left: 13.5em;
-        top: -2em;
-        font-size: 10px;
-        width: 22em;
+        left: 120px;
+        top: -40px;
+        font-size: 9px;
+        width: 200px;
     }
     #head {
         width: 170px;
+        top: -12px;
+        left: -16px;
+        font-size:small ;
+    }
+    .modal-exit{
+        left: -0.5em;
+
     }
 }
-
