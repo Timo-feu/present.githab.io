@@ -138,15 +138,16 @@ padding-left: 200px;
         width: 390px;
     }
     .modal-window {
+        top:2%;
         left: -1em;
         width: 390px; 
     }
     .modal-main {
         position: relative;
         left: 0px;
-        top: -20px;
+        top: -40px;
         font-size: 9px;
-        width: 300px;
+        width: 350px;
     }
     #head {
         width: 170px;
@@ -160,5 +161,6 @@ padding-left: 200px;
 
     }
 }
+
 
 
