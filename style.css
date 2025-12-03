@@ -154,13 +154,14 @@ padding-left: 200px;
         position:relative;
         top: 20px;
         left: -8px;
-        font-size:small;
+        font-size:smaller;
     }
     .modal-exit{
         top:-2em;
         left: 0.5em;
     }
 }
+
 
 
 
