@@ -147,20 +147,21 @@ padding-left: 200px;
         left: -20px;
         top: 0px;
         font-size: 9px;
-        width: 350px;
+        width: 320px;
     }
     #head {
         width: 170px;
         position:relative;
-        top: 0px;
-        left: -16px;
+        top: 20px;
+        left: -12px;
         font-size:small;
     }
     .modal-exit{
         top:-2em;
-        left: 2.5em;
+        left: 0.5em;
     }
 }
+
 
 
 
