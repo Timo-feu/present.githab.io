@@ -135,7 +135,7 @@ padding-left: 200px;
 
 @media screen and (max-width:400px) {
     .popupmodal {
-        width: 390px;
+        width: 370px;
     }
     .modal-up {
         padding-top:0;
@@ -156,7 +156,7 @@ padding-left: 200px;
         width: 170px;
         top: -12px;
         left: -16px;
-        font-size:small ;
+        font-size:small;
     }
     .modal-exit{
         top:0;
@@ -164,6 +164,7 @@ padding-left: 200px;
 
     }
 }
+
 
 
 
