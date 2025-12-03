@@ -145,23 +145,23 @@ padding-left: 200px;
     .modal-main {
         position: relative;
         left: 0px;
-        top: -20px;
+        top: 0px;
         font-size: 9px;
         width: 350px;
     }
     #head {
         width: 170px;
         position:relative;
-        top: -12px;
-        left: -16px;
+        top: -8px;
+        left: -14px;
         font-size:small;
     }
     .modal-exit{
-        top:-4em;
-        left: -0.5em;
-
+        top:-6em;
+        left: -2.5em;
     }
 }
+
 
 
 
