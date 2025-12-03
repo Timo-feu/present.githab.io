@@ -137,6 +137,9 @@ padding-left: 200px;
     .popupmodal {
         width: 390px;
     }
+    .modal-up {
+        padding-top:0;
+    }
     .modal-window {
         top:2%;
         left: -1em;
@@ -161,6 +164,7 @@ padding-left: 200px;
 
     }
 }
+
 
 
 
