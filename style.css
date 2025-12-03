@@ -19,20 +19,19 @@ body {
     height: 0.1em; 
 }
 .snow::after {
-        content: '•';
-        color: #fff;
+    content: '•';
+    color: #fff;
 }
 
 .popupmodal {
     width: 600px; height:450px;
-    /* width: 600px; height:450px; */
     position: relative;
     position: fixed;
     background:none;
     top: 20%;
     z-index: 1;
     overflow: hidden;
-    /* border: none; */
+    border: none;
 }
 
 .modal-up {
@@ -50,12 +49,6 @@ body {
     font-weight: 600;
     color:bisque;
 }
-/* 
-    width: 200px;
-    text-align: center;
-    font-weight: 600;
-    font-size: large;
-    color:bisque; */
 
 .modal-window {
     position: absolute;
@@ -66,13 +59,6 @@ body {
     z-index: -1;
     user-select: none;
 }
-    /* position: absolute;
-    top: -11%;
-    object-fit: cover;
-    width: 570px;
-    height: auto;
-    z-index: -1;
-    user-select: none; */
 
 .modal-exit {
     background: none;
@@ -80,7 +66,7 @@ body {
     cursor: pointer;
     position: relative;
     top: -4em;
-    left: -0.5em;
+    left: 1em;
 }
 
 .ex-foto {
@@ -90,7 +76,6 @@ body {
 }
 
 .btn-1 {
-    position: absolute; left: 500px;
     width: 10em; height: 1em;
     background-color: aquamarine;
     cursor: pointer;
@@ -106,12 +91,6 @@ body {
     font-weight: 500;
     font-style: oblique;
 }
-/* 
-padding-left: 200px;
-    font-size: 13px;
-    width: 490px;
-    color:bisque;
-    font-weight: 500; */
 
 @media screen and (max-width: 600px) {
     .popupmodal {
@@ -158,21 +137,6 @@ padding-left: 200px;
     }
     .modal-exit{
         top:-2em;
-        left: 0.5em;
+        left: 1em;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
