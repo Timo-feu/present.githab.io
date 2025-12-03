@@ -24,7 +24,7 @@ body {
 }
 
 .popupmodal {
-    width: 400px; height:450px;
+    width: 600px; height:450px;
     /* width: 600px; height:450px; */
     position: relative;
     position: fixed;
@@ -44,12 +44,9 @@ body {
 }
 
 #head{
-    width: 170px;
+    width: 200px;
     text-align: center;
-    position: relative;
-    top: -12px;
-    left: -16px;
-    font-size:small;
+    font-size:large;
     font-weight: 600;
     color:bisque;
 }
@@ -62,8 +59,8 @@ body {
 
 .modal-window {
     position: absolute;
-    left: -1em;
-    width: 390px;
+    top: -11%;
+    width: 570px;
     object-fit: cover;
     height: auto;
     z-index: -1;
@@ -100,11 +97,11 @@ body {
 }
 
 .modal-main {
-    position: relative;
-    left: 120px;
-    top: -40px;
-    font-size: 9px;
-    width: 200px;
+    padding-left: 200px;
+    font-size: 13px;
+    width: 490px;
+    color:bisque;
+    font-weight: 500;
     color:bisque;
     font-weight: 500;
     font-style: oblique;
@@ -146,10 +143,10 @@ padding-left: 200px;
     }
     .modal-main {
         position: relative;
-        left: 20px;
-        top: -40px;
+        left: 0px;
+        top: -20px;
         font-size: 9px;
-        width: 200px;
+        width: 300px;
     }
     #head {
         width: 170px;
@@ -163,4 +160,5 @@ padding-left: 200px;
 
     }
 }
+
 
