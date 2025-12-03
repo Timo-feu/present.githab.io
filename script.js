@@ -1,11 +1,9 @@
-class Snow{
-    // snowflakes = '❄';
-    
+class Snow{    
     constructor(){
         this.box = document.getElementById('tr');
         this.tag = document.querySelector('.snow');
         this.obj = this.tag.cloneNode(true);
-        this.y = 0;
+        this.y = 1;
         this.score = 1;
         this.obj.style.position = 'absolute';
         this.box.append(this.obj);
@@ -34,13 +32,11 @@ function getRandomIntInclusive(min, max){
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-// const snowflakes = ['❄', '❅', '❆', '•'];
-// const a = new Snow();
 let snowBox = new Array;
 for (let i = 0; i<40; i++){
     snowBox[i] = new Snow();
     snowBox[i].x = getRandomIntInclusive(0, document.querySelector('.abs').clientWidth)
-    snowBox[i].score = (i+1)/10;
+    snowBox[i].score = (i+8)/10;
 }
 
 function launch() {
@@ -57,14 +53,6 @@ function SearchForPopup(code) {
         document.getElementById('modal').showModal();
     }
 }
-// code - Код текста который нужно будет вывести. возможно обойдемся одной функцией.
-
-// function PopupWindow() {
-//     let mywindow = document.getElementById('modal')
-//     if (phrases.length != 0) {
-//         mywindow.showModal();
-//     }
-// }
 
 setInterval(()=>{
     launch()
@@ -95,5 +83,4 @@ const phrases = [
         Вывесить красный у двери значит пожелать дому удачи, а гостям – тепла. 
         Фонарик в форме рыбки считается одним из самых значимых – слово «рыба» и «удача» на китайском произносятся одинаково.`
     ]
-
 ];
