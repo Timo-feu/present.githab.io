@@ -35,7 +35,7 @@ function getRandomIntInclusive(min, max){
 let snowBox = new Array;
 for (let i = 0; i<40; i++){
     snowBox[i] = new Snow();
-    snowBox[i].x = getRandomIntInclusive(0, document.querySelector('.abs').clientWidth)
+    snowBox[i].x = getRandomIntInclusive(10, document.querySelector('.abs').clientWidth - 10)
     snowBox[i].score = (i+8)/10;
 }
 
@@ -84,3 +84,4 @@ const phrases = [
         Фонарик в форме рыбки считается одним из самых значимых – слово «рыба» и «удача» на китайском произносятся одинаково.`
     ]
 ];
+
