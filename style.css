@@ -187,6 +187,19 @@ body {
     }
 }
 
+@media screen and (max-width:400px) {
+    .popupmodal {
+        width: 90%;
+        left: 0;
+    }
+    .modal-up {
+        margin-top: 26%;
+    }
+    .modal-main {
+        height: 20%;
+    }
+}
+
 @media screen and (max-width:320px) {
     .popupmodal {
         width: 100%;
@@ -199,3 +212,4 @@ body {
         height: 18%;
     }
 }
+
