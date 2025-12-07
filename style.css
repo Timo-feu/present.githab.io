@@ -196,10 +196,10 @@ body {
         top: 1%;
     }
     .modal-up {
-        margin-top: 40%;
+        margin-top: 38%;
     }
     #head {
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
     .modal-main {
         height: 16%;
@@ -224,6 +224,7 @@ body {
         height: 18%;
     }
 }
+
 
 
 
