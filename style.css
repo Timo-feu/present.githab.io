@@ -193,7 +193,7 @@ body {
         left: 0;
     }
     .modal-window {
-        top: 7%;
+        top: 2%;
     }
     .modal-up {
         margin-top: 28%;
@@ -212,7 +212,7 @@ body {
         left: 0%;
     }
     .modal-window {
-        top: 7%;
+        top: 2%;
     }
     .modal-up {
         margin-top: 24%;
@@ -224,6 +224,7 @@ body {
         height: 18%;
     }
 }
+
 
 
 
