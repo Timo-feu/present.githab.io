@@ -237,9 +237,10 @@ body {
         height: 2%;
     }
     .modal-main {
-        font-size: var(--text-medium);
+        font-size: 0.5em;
         height: 9%;
-        margin-top: -2vh;
+        margin-top: -3vh;
     }
 }
+
 
