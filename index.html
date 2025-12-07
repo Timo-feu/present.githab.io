@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="width: 300px; border: 2px solid black; height: 1200px; position: absolute;"></div>
-
     <dialog class="popupmodal" aria-labelledby="label" id="modal">
         <img src="./foto/окошко.png" alt="window" class="modal-window">
         <div class="modal-up">
@@ -20,19 +18,24 @@
         <div class="modal-main">
             <p id="modal-text">...</p>
         </div>
+        <div class="btn-box" id="btnMBox">
+            <button class="btn-1 pr" onclick="window.StepWin()"><</button>
+            <button class="btn-1 pr" onclick="window.StepWin()">></button>
+        </div>
     </dialog>
 
     <div class="abs">
-        <button class="btn-1" onclick="window.SearchForPopup(1)" type="button">НАЖМИ НА МЕНЯ</button>
+        <div class="tree-container">
+            <button class="btn-1" onclick="window.SearchForPopup(1)" type="button"> НАЖМИ НА МЕНЯ</button>
+            <button class="btn-1" onclick="window.SearchForPopup(2)" type="button"> НАЖМИ НА МЕНЯ</button>
+            <button class="btn-1" onclick="window.SearchForPopup(3)" type="button"> НАЖМИ НА МЕНЯ</button>
+            <button class="btn-1" onclick="window.SearchForPopup(4)" type="button"> НАЖМИ НА МЕНЯ</button>
+            <button class="btn-1" onclick="window.SearchForPopup(5)" type="button"> НАЖМИ НА МЕНЯ</button>
+        </div>
     </div>
     <div class="Snowflakes" id="tr">
         <div class="snow"></div>
     </div>
     <script src="script.js" lang="JS"></script>
 </body>
-
 </html>
-
-
-
-
