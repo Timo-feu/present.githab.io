@@ -119,7 +119,7 @@ body {
     top: 100%;
   }
   100% {
-    top: calc(-200px - 20%);
+    top: calc(-200px - 80%);
   }
 }  
 
@@ -193,10 +193,10 @@ body {
         left: 0;
     }
     .modal-window {
-        top: 2%;
+        top: 1%;
     }
     .modal-up {
-        margin-top: 28%;
+        margin-top: 29%;
     }
     #head {
         font-size: var(--text-large);
@@ -212,10 +212,10 @@ body {
         left: 0%;
     }
     .modal-window {
-        top: 2%;
+        top: 1%;
     }
     .modal-up {
-        margin-top: 24%;
+        margin-top: 29%;
     }
     #head {
         font-size: var(--text-large);
@@ -224,6 +224,7 @@ body {
         height: 18%;
     }
 }
+
 
 
 
