@@ -233,15 +233,15 @@ body {
         margin-top: 37%;
     }
     #head {
-        font-size: 0.6em;
+        font-size: 0.4em;
         height: 2%;
     }
     .modal-main {
         font-size: var(--text-medium);
         height: 9%;
-        margin-top: 0vh;
     }
 }
+
 
 
 
