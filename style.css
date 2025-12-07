@@ -192,11 +192,17 @@ body {
         width: 100%;
         left: 0;
     }
+    .modal-window {
+        top: 7%;
+    }
     .modal-up {
         margin-top: 25%;
     }
+    #head {
+        font-size: var(--text-large);
+    }
     .modal-main {
-        height: 20%;
+        height: 16%;
     }
 }
 
@@ -205,8 +211,14 @@ body {
         width: 100%;
         left: 0%;
     }
+    .modal-window {
+        top: 7%;
+    }
     .modal-up {
         margin-top: 24%;
+    }
+    #head {
+        font-size: var(--text-large);
     }
     .modal-main {
         height: 18%;
