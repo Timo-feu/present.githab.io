@@ -1,16 +1,21 @@
 * {
     margin: 0;padding: 0;box-sizing: border-box;
+    --text-small: 0.5rem;
+    --text-medium: 1rem;
+    --text-large: 1.15rem;
 }
 
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .abs {
     width: 100vw;
     height: 100vh; 
-    background:linear-gradient(180deg, #4d0202 50%, #692020, #c52e2e)
-
+    background:linear-gradient(180deg, #4d0202 50%, #692020, #c52e2e);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
 }
 
 .snow {
@@ -24,36 +29,36 @@ body {
 }
 
 .popupmodal {
-    width: 600px; height:450px;
+    width: 30%; height: 100%;
     position: relative;
-    position: fixed;
-    background:none;
     top: 20%;
+    left: 35%;
+    background:none;
     z-index: 1;
     overflow: hidden;
     border: none;
 }
 
 .modal-up {
-    padding-top: 9.2em;
-    padding-left: 2em;
+    margin-top: 26%;
+    margin-left: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items:flex-start;
 }
 
 #head{
-    width: 200px;
+    width: 40%;
     text-align: center;
-    font-size:large;
+    font-size:var(--text-large);
     font-weight: 600;
     color:bisque;
 }
 
 .modal-window {
     position: absolute;
-    top: -11%;
-    width: 570px;
+    top: -5.5%;
+    width: 100%;
     object-fit: cover;
     height: auto;
     z-index: -1;
@@ -65,8 +70,8 @@ body {
     border: none;
     cursor: pointer;
     position: relative;
-    top: -4em;
-    left: 1em;
+    bottom: 4em;
+    left: 5%;
 }
 
 .ex-foto {
@@ -76,71 +81,77 @@ body {
 }
 
 .btn-1 {
-    margin-left: 330px;
-    margin-top: 100px;
     background-color: aquamarine;
     cursor: pointer;
+    animation-name: myanima; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes myanima {
+    0%, 100% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
 }
 
 .modal-main {
-    padding-left: 200px;
-    font-size: 13px;
-    width: 490px;
+    padding-left: 36%;
+    font-size: var(--text-large);
+    width: 25vw;
+    height: 40%;
+    overflow: hidden;
     color:bisque;
     font-weight: 500;
-    color:bisque;
-    font-weight: 500;
-    font-style: oblique;
 }
 
-@media screen and (max-width: 600px) {
+#modal-text {
+    position: relative;
+    top: 100%;
+}
+
+.pr {
+    display: none;
+}
+
+.tree-container {
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+@media screen and (max-width:1700px) {
     .popupmodal {
-        width: 450px;
+        width: 35%;
     }
-    .modal-window {
-        width: 500px;
-        left: -1.5em;
+}
+
+@media screen and (max-width:1200px) {
+    .popupmodal {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .popupmodal {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .popupmodal {
+        width: 100%;
+        left: 5%;
     }
     .modal-up {
-        padding-top: 7.8em;
-    }
-    .modal-main {
-        padding-left: 140px;
-        font-size: 12px;
-        width: 410px;
-        position: relative;
-        top: -20px;
+        margin-top: 24%;
     }
 }
-
-@media screen and (max-width:400px) {
-    .popupmodal {
-        width: 370px;
-    }
-    .modal-window {
-        top:2%;
-        left: -1em;
-        width: 390px; 
-    }
-    .modal-main {
-        position: relative;
-        left: -20px;
-        top: 0px;
-        font-size: 9px;
-        width: 320px;
-    }
-    #head {
-        width: 170px;
-        position:relative;
-        top: 20px;
-        left: -5px;
-        font-size:smaller;
-    }
-    .modal-exit{
-        top:-2em;
-        left: 1em;
-    }
-}
-
-
-
