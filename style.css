@@ -189,11 +189,11 @@ body {
 
 @media screen and (max-width:400px) {
     .popupmodal {
-        width: 90%;
+        width: 100%;
         left: 0;
     }
     .modal-up {
-        margin-top: 26%;
+        margin-top: 25%;
     }
     .modal-main {
         height: 20%;
@@ -212,4 +212,5 @@ body {
         height: 18%;
     }
 }
+
 
