@@ -48,7 +48,7 @@ body {
 }
 
 #head{
-    width: 40%;
+    width: 40%; height: 10%;
     text-align: center;
     font-size:var(--text-large);
     font-weight: 600;
@@ -81,12 +81,16 @@ body {
 }
 
 .btn-1 {
-    background-color: aquamarine;
+    background: none; border: none;
     cursor: pointer;
     animation-name: myanima; 
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
+}
+
+.btn-img {
+    height: 100px;
 }
 
 @keyframes myanima {
@@ -130,10 +134,8 @@ body {
 .tree-container {
     text-align: center;
     align-content: center;
-    background-color: burlywood;
     grid-column-start: 1;
     grid-column-end: 4;
-
 }
 
 @media screen and (max-width:1700px) {
@@ -166,8 +168,11 @@ body {
 
 @media screen and (max-width:900px) {
     .popupmodal {
-        width: 80%;
+        width: 100%;
         left: 5%;
+    }
+    .modal-up {
+        margin-top: 29%;
     }
     .modal-main {
         height: 24%;
@@ -180,10 +185,13 @@ body {
         left: 5%;
     }
     .modal-up {
-        margin-top: 26%;
+        margin-top: 24%;
     }
     .modal-main {
-        height: 20%;
+        height: 17%;
+    }
+    #head {
+        font-size: var(--text-medium);
     }
 }
 
@@ -207,6 +215,12 @@ body {
     }
 }
 
+@media screen and (max-width:370px) {
+    .modal-main {
+        height: 12%;
+    }
+}
+
 @media screen and (max-width:320px) {
     .popupmodal {
         width: 100%;
@@ -223,7 +237,8 @@ body {
         height: 2%;
     }
     .modal-main {
-        height: 10%;
+        font-size: var(--text-medium);
+        height: 9%;
         margin-top: -1vh;
     }
 }
