@@ -230,17 +230,18 @@ body {
         top: 1%;
     }
     .modal-up {
-        margin-top: 37%;
+        margin-top: 36%;
     }
     #head {
-        font-size: 0.4em;
+        font-size: 0.25em;
         height: 2%;
     }
     .modal-main {
         font-size: var(--text-medium);
-        height: 9%;
+        height: 8%;
     }
 }
+
 
 
 
