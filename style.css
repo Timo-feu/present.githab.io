@@ -304,7 +304,7 @@ body {
     }
     .img-conteiner {
         left: -53vw;
-        top: 22vh;
+        top: 10vh;
     }
     .tree {
         width:150vw;
@@ -312,23 +312,24 @@ body {
         border: 1px solid #fff;
     }
     .pd {
-        grid-row-start: 8;
+        grid-row-start: 7;
     }
     .mn {
-        grid-row-start: 8;
+        grid-row-start: 7;
         position:relative;
         left: -10vw;
     }
     .pl {
-        grid-row-start: 7;
+        grid-row-start: 6;
         position: relative;
         top: 2vh;
         left: -4vw;
     }
     .vr {
-        grid-row-start: 3;
+        grid-row-start: 2;
     }
     .fn {
+        grid-row-start: 4;
         position: relative;
         left: 7vw;
     }
@@ -339,18 +340,19 @@ body {
         height: 12%;
     }
     .pd {
-        grid-row-start: 8;
+        grid-row-start: 7;
         position: relative;
-        left: -9vw;
-        top: -13vh;
+        left: -4vw;
+        top: -11vh;
     }
     .mn {
-        grid-row-start: 7;
+        grid-row-start: 6;
         top: 6vh;
         left: -12vw;
     }
     .pl {
-        top: -3vh;
+        left: 2vw;
+        top: -2vh;
     }
 }
 
@@ -381,25 +383,25 @@ body {
         top: -3vh;
     }
     .fn {
-        top: 20vh;
+        top: 9vh;
         left: -6vw;
     }
     .pd {
-        left: 30vw;
-        top: 6vh;
+        left: 33vw;
+        top: -4vh;
     }
     .mn {
-        top: 45vh;
+        top: 32vh;
         left: -23vw;
     }
     .pl {
-        top: 16vh;
+        top: 4vh;
         left: -20vw;
         transform: rotateX(25deg) rotateY(15deg) rotateZ(10deg);
     }
     .vr {
         position: relative;
-        top: -10vh;
-        left: 10vw;
+        top: -20vh;
+        left: 8vw;
     }
 }
