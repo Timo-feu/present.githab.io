@@ -25,7 +25,7 @@ body {
     height: 0.1em; 
 }
 .snow::after {
-    content: '❄';
+    content: '•';
     color: #fff;
 }
 
@@ -457,4 +457,5 @@ body {
         left: 8vw;
     }
 }
+
 
