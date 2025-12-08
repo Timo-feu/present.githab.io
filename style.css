@@ -115,7 +115,7 @@ body {
 #modal-text {
     position: relative;
     top:20%;
-    animation: matrix 23s linear infinite backwards;
+    animation: matrix 20s linear infinite backwards;
 }
 
 @keyframes matrix {
@@ -134,8 +134,50 @@ body {
 .tree-container {
     text-align: center;
     align-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(9,1fr);
+}
+
+.img-conteiner {
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+
+.vr {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.fn {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    margin-top: -8vh;
+    margin-left: -3vw;
+}
+
+.mn {
+    transform: rotateY(30deg) rotateX(-20deg) rotateZ(10deg);
+    grid-column-start: 2;
+    grid-row-start: 9;
+    margin-left: -6vw;
+    margin-top: -3vh;
+}
+
+.pl {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-row-start: 8;
+}
+
+.pd {
+    grid-column-start: 4;
+    grid-row-start: 9;
+    position: relative;
+    top: -6vh;
+    left: 2.3vw;
 }
 
 @media screen and (max-width:1700px) {
@@ -148,7 +190,16 @@ body {
     }
     .modal-main {
         width: 40vw;
-        height: 30%;
+        height: 20%;
+    }
+    .img-conteiner {
+        left: 11%;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .img-conteiner {
+        left: -5vw;
     }
 }
 
@@ -162,7 +213,16 @@ body {
     }
     .modal-main {
         width: 85%;
-        height: 24%;
+        height: 18%;
+    }
+    .img-conteiner {
+        left: -5vw;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .img-conteiner {
+        left: -17%;
     }
 }
 
@@ -176,6 +236,15 @@ body {
     }
     .modal-main {
         height: 24%;
+    }
+    .img-conteiner {
+        left: -20vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .img-conteiner {
+        left: -41vw;
     }
 }
 
@@ -192,6 +261,15 @@ body {
     }
     #head {
         font-size: var(--text-medium);
+    }
+    .img-conteiner {
+        left: -50vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .img-conteiner {
+        left: -73vw;
     }
 }
 
@@ -213,6 +291,13 @@ body {
         height: 15%;
         margin-top: -2vh;
     }
+    .img-conteiner {
+        left: -65vw;
+        top: 10vh;
+    }
+    .tree {
+        width:230vw;
+    }
 }
 
 @media screen and (max-width:370px) {
@@ -230,20 +315,15 @@ body {
         top: 1%;
     }
     .modal-up {
-        margin-top: 36%;
+        margin-top: 37%;
     }
     #head {
-        font-size: 0.25em;
+        font-size: 0.6em;
         height: 2%;
     }
     .modal-main {
         font-size: var(--text-medium);
-        height: 8%;
+        height: 9%;
+        margin-top: 0vh;
     }
 }
-
-
-
-
-
-
