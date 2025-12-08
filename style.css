@@ -118,7 +118,7 @@ body {
 #modal-text {
     position: relative;
     top:20%;
-    animation: matrix 25s linear infinite backwards;
+    animation: matrix 20s linear infinite backwards;
 }
 
 @keyframes matrix {
@@ -472,3 +472,4 @@ body {
         left: 8vw;
     }
 }
+
