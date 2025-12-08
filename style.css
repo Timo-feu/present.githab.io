@@ -293,16 +293,47 @@ body {
     }
     .img-conteiner {
         left: -65vw;
-        top: 10vh;
+        top: 1vh;
     }
     .tree {
         width:230vw;
+    }
+    .pd {
+        grid-row-start: 8;
+    }
+    .mn {
+        grid-row-start: 8;
+        position:relative;
+        left: -10vw;
+    }
+    .pl {
+        grid-row-start: 7;
+        position: relative;
+        top: 2vh;
+        left: -4vw;
+    }
+    .vr {
+        grid-row-start: 3;
     }
 }
 
 @media screen and (max-width:370px) {
     .modal-main {
         height: 12%;
+    }
+    .pd {
+        grid-row-start: 8;
+        position: relative;
+        left: -9vw;
+        top: -13vh;
+    }
+    .mn {
+        grid-row-start: 7;
+        top: 6vh;
+        left: -12vw;
+    }
+    .pl {
+        top: -3vh;
     }
 }
 
@@ -325,5 +356,21 @@ body {
         font-size: var(--text-medium);
         height: 9%;
         margin-top: 0vh;
+    }
+    .pd {
+        grid-row-start: 7;
+        left: -20vw;
+        top: -11vh;
+    }
+    .mn {
+        grid-row-start: 6;
+        top: 7vh;
+        left: -20vw;
+    }
+    .pl {
+        grid-row-start: 6;
+        top: -2vh;
+        left: 15vw;
+        transform: rotateX(30deg) rotateY(15deg) rotateZ(10deg);
     }
 }
