@@ -6,11 +6,11 @@
 }
 
 body {
-    /* overflow: hidden;/ */
+    overflow: hidden;
 }
 
 .abs {
-    width: 100vw;
+    width: 100%;
     height: 100vh; 
     background:linear-gradient(180deg, #4d0202 50%, #692020, #c52e2e);
     display: grid;
@@ -142,10 +142,18 @@ body {
 }
 
 .img-conteiner {
-    width:100%;
+    width: 100%;
     position: absolute;
     top: -20%;
     left: 15%;
+}
+
+.mn-img {
+    height: 70px;
+}
+
+.e-img {
+    height: 80px;
 }
 
 .vr {
@@ -298,7 +306,7 @@ body {
     }
     .tree {
         width:230vw;
-        overflow:hiden;
+        overflow: hidden;
     }
     .pd {
         grid-row-start: 8;
@@ -382,6 +390,3 @@ body {
         left: -10vw;
     }
 }
-
-
-
