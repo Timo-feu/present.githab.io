@@ -6,7 +6,7 @@
 }
 
 body {
-    overflow: hidden;
+    /* overflow: hidden;/ */
 }
 
 .abs {
@@ -142,9 +142,18 @@ body {
 }
 
 .img-conteiner {
+    overflow: hidden;
     position: absolute;
     top: -20%;
     left: 15%;
+}
+
+.mn-img {
+    height: 70px;
+}
+
+.e-img {
+    height: 80px;
 }
 
 .vr {
@@ -380,4 +389,3 @@ body {
         left: -10vw;
     }
 }
-
