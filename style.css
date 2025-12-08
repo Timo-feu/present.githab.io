@@ -148,14 +148,6 @@ body {
     left: 15%;
 }
 
-.mn-img {
-    height: 70px;
-}
-
-.e-img {
-    height: 80px;
-}
-
 .vr {
     grid-column-start: 3;
     grid-row-start: 2;
@@ -389,3 +381,4 @@ body {
         left: -10vw;
     }
 }
+
