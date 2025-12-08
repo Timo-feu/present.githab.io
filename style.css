@@ -6,6 +6,7 @@
 }
 
 body {
+    width: 100%;
     overflow: hidden;
 }
 
@@ -132,6 +133,7 @@ body {
 }
 
 .tree-container {
+    width: 100%;
     text-align: center;
     align-content: center;
     grid-column-start: 2;
@@ -301,12 +303,13 @@ body {
         margin-top: -2vh;
     }
     .img-conteiner {
-        left: -65vw;
-        top: 1vh;
+        left: -53vw;
+        top: 22vh;
     }
     .tree {
-        width:230vw;
+        width:150vw;
         overflow: hidden;
+        border: 1px solid #fff;
     }
     .pd {
         grid-row-start: 8;
@@ -324,6 +327,10 @@ body {
     }
     .vr {
         grid-row-start: 3;
+    }
+    .fn {
+        position: relative;
+        left: 7vw;
     }
 }
 
