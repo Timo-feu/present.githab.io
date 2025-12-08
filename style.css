@@ -309,7 +309,6 @@ body {
     .tree {
         width:150vw;
         overflow: hidden;
-        border: 1px solid #fff;
     }
     .pd {
         grid-row-start: 7;
@@ -318,6 +317,7 @@ body {
         grid-row-start: 7;
         position:relative;
         left: -10vw;
+        top:-3vh;
     }
     .pl {
         grid-row-start: 6;
@@ -405,3 +405,4 @@ body {
         left: 8vw;
     }
 }
+
