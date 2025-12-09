@@ -3,6 +3,7 @@
     --text-small: 0.5rem;
     --text-medium: 1rem;
     --text-large: 1.15em;
+    --anim-delay: -800%;
 }
 
 body {
@@ -118,7 +119,7 @@ body {
 #modal-text {
     position: relative;
     top:20%;
-    animation: matrix 10s linear infinite backwards;
+    animation: matrix 20s linear infinite backwards;
 }
 
 @keyframes matrix {
@@ -126,7 +127,7 @@ body {
     top: 100%;
   }
   100% {
-    top: -400%;
+    top: var(--anim-delay);
   }
 }  
 
@@ -370,6 +371,9 @@ body {
 }
 
 @media screen and (max-width:450px) {
+    .modal-main{
+        height: 15%;
+    }
     .pd {
         grid-row-start: 6;
         top: 1vh;
